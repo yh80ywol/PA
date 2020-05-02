@@ -10,7 +10,7 @@ import os.path
 import shutil
 
 #Pfadeinfabe
-os.chdir('c:\\Users\\Tom\\Desktop\\PA\\Code\\PA\\YOLOV3(mitOpenCV)')
+os.chdir('c:\\Users\\Tom\\Desktop\\Projektarbeit\\Code\\YOLOV3_mitOpenCV')
 
 # Initialize the parameters
 confThreshold = 0.5  #Confidence threshold
@@ -102,8 +102,8 @@ net.setPreferableBackend(cv2.dnn.DNN_BACKEND_OPENCV)
 net.setPreferableTarget(cv2.dnn.DNN_TARGET_CPU)
 
 
-inputfile = "video.mp4"
-outputFile = "yolo_out_py.avi"
+inputfile = "Testvideo2.mp4"
+outputFile = "Ergebnisvideo2.avi"
 
 #IMAGE
 #cap = cv.VideoCapture(args.image)
